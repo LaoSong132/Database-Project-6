@@ -1,10 +1,10 @@
 This repository includes activities for ITCS 3160 - Database-Project-6
 
 Group members:
-    Jackson Blakemore
-    Sarah Chen
-    Truong Dang
-    Brian King
+    Jackson Blakemore,
+    Sarah Chen,
+    Truong Dang,
+    Brian King,
     Yuanming Song
 
 
