@@ -1,11 +1,11 @@
 This repository includes activities for ITCS 3160 - Database-Project-6
 
 Group members:
-    Jackson Blakemore,
     Sarah Chen,
     Truong Dang,
     Brian King,
-    Yuanming Song
+    Yuanming Song,
+    Aaron Ye
 
 
 Use Case for Rating System
