@@ -1,4 +1,4 @@
-This repository includes activities for ITCS 3160 - Database-Project-6
+This repository includes activities for ITCS 3160 - Database-Project-6.
 
 Group members:
     Sarah Chen,
@@ -6,7 +6,6 @@ Group members:
     Brian King,
     Yuanming Song,
     Aaron Ye
-
 
 Use Case for Rating System
 Business Rules
