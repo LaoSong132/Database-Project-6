@@ -9,7 +9,7 @@ Group members:
 
 Use Case for Rating System
 Business Rules
-EERD (full database)
+EERD (full database)![](ProjectEERD.png)
 MySQL Queries
 Stored Procedure
 Web/App Implementation (Optional) or Description of Future Work
