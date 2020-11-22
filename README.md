@@ -24,12 +24,12 @@
 
 ## <span style="color:blue">Business Rules</span>
 * A valid credit/debit card must be available for order confirmation.
-### II. All meals in a single order must be delivered to the same location. 
-### III. All meals in a single order must be paid for using the same payment method.
-### IV. User must be at least 21 to order alcoholic beverages
-### V. Minor(18 and under) are not allowed to place orders on this application
-### VI. No access from third parties allowed
-### VII. Application has the rights to revoke account if false information is detected
+* All meals in a single order must be delivered to the same location. 
+* All meals in a single order must be paid for using the same payment method.
+* User must be at least 21 to order alcoholic beverages
+* Minor(18 and under) are not allowed to place orders on this application
+* No access from third parties allowed
+* Application has the rights to revoke account if false information is detected
 
 
 ## <span style="color:blue">EERD</span>![](ProjectEERD.png)
