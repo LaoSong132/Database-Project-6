@@ -31,11 +31,16 @@
 * Minor(18 and under) are not allowed to place orders on this application
 * No access from third parties allowed
 * Application has the rights to revoke account if false information is detected
-
+* A review must have a user writing it and a subject (driver or location) that is being reviewed
+* A driver cannot review themself
+* A driver and location can have many reviews written about them
+* A review must only be between 1 and 5 stars inclusively
+* A user can only review a driver or location once each
 
 ## <span style="color:blue">EERD</span>
 ![](Project_EERD.png)
 ![](Data_Dictionary.PNG)
+
 ## MySQL Queries
 ## Stored Procedure
 ## Web/App Implementation (Optional) or Description of Future Work
