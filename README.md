@@ -20,9 +20,9 @@
 * [MySQL dump](#MySQL-dump)
 * [PPT Video](#PPT-Video)
 
-## <span style="color:blue"> Use Case for Rating System </span>![](Project%20Use%20Case%20Diagram%20(1).jpg)
+## <span style="color:blue">Use Case for Rating System</span>![](Project%20Use%20Case%20Diagram%20(1).jpg)
 
-## <span style="color:blue"> Business Rules </span>
+## <span style="color:blue">Business Rules</span>
 ### I. A valid credit/debit card must be available for order confirmation.
 ### II. All meals in a single order must be delivered to the same location. 
 ### III. All meals in a single order must be paid for using the same payment method.
@@ -32,7 +32,7 @@
 ### VII. Application has the rights to revoke account if false information is detected
 
 
-## <span style="color:blue"> EERD (full database) </span>![](ProjectEERD.png)
+## <span style="color:blue">EERD (full database)</span>![](ProjectEERD.png)
 ## MySQL Queries
 ## Stored Procedure
 ## Web/App Implementation (Optional) or Description of Future Work
