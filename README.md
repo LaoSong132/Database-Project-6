@@ -19,6 +19,8 @@
 ### IV. User must be at least 21 to order alcoholic beverages
 ### V. Minor(18 and under) are not allowed to place orders on this application
 ### VI. No access from third parties allowed
+### VII. Application has the rights to revoke account if false information is detected
+
 
 ## <span style="color:blue"> EERD (full database): </span>![](ProjectEERD.png)
 ## MySQL Queries
