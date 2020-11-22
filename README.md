@@ -13,7 +13,7 @@
 ## Index
 * [Use Case for Rating System](#Use-Case-for-Rating-System)
 * [Business Rules](#Business-Rules)
-* [EERD](#EERD (full database))
+* [EERD](#EERD)
 * [MySQL Queries](#MySQL-Queries)
 * [Stored Procedure](#Stored-Procedure)
 * [Description of Future Work](#Description-of-Future-Work)
@@ -32,7 +32,7 @@
 ### VII. Application has the rights to revoke account if false information is detected
 
 
-## <span style="color:blue">EERD (full database)</span>![](ProjectEERD.png)
+## <span style="color:blue">EERD</span>![](ProjectEERD.png)
 ## MySQL Queries
 ## Stored Procedure
 ## Web/App Implementation (Optional) or Description of Future Work
