@@ -20,7 +20,8 @@
 * [MySQL dump](#MySQL-dump)
 * [PPT Video](#PPT-Video)
 
-## <span style="color:blue">Use Case for Rating System</span>![](Project%20Use%20Case%20Diagram%20(1).jpg)
+## <span style="color:blue">Use Case for Rating System</span>
+![](Project%20Use%20Case%20Diagram%20(1).jpg)
 
 ## <span style="color:blue">Business Rules</span>
 * A valid credit/debit card must be available for order confirmation.
@@ -34,6 +35,7 @@
 
 ## <span style="color:blue">EERD</span>
 ![](Project_EERD.png)
+![](Data_Dictionary.PNG)
 ## MySQL Queries
 ## Stored Procedure
 ## Web/App Implementation (Optional) or Description of Future Work
