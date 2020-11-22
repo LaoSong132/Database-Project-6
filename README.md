@@ -23,7 +23,7 @@
 ## <span style="color:blue">Use Case for Rating System</span>![](Project%20Use%20Case%20Diagram%20(1).jpg)
 
 ## <span style="color:blue">Business Rules</span>
-### I. A valid credit/debit card must be available for order confirmation.
+* A valid credit/debit card must be available for order confirmation.
 ### II. All meals in a single order must be delivered to the same location. 
 ### III. All meals in a single order must be paid for using the same payment method.
 ### IV. User must be at least 21 to order alcoholic beverages
