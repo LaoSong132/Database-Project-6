@@ -45,4 +45,4 @@
 ## Stored Procedure
 ## Web/App Implementation (Optional) or Description of Future Work
 ## MySQL dump
-## PPT Video (link)
+## PPT Video
