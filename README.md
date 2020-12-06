@@ -41,7 +41,7 @@
 
 ## <span style="color:blue">EERD</span>
 ![](Project_EERD.png)
-![](Data Dictionary.xlsx)
+![](DataDictionary.xlsx)
 
 ## MySQL Queries
 ## Stored Procedure
