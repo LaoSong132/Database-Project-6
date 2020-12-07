@@ -40,7 +40,7 @@
 * A user can only review a driver or location once each
 
 ## <span style="color:blue">EERD</span>
-![](Project_EERD.png)
+![](EERD.png)
 ![](Data_Dictionary1.PNG)
 ![](Data_Dictionary2.PNG)
 ![](Data_Dictionary3.PNG)
