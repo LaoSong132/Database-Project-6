@@ -49,6 +49,7 @@
 
 ## MySQL Queries
 ## Stored Procedure
+zyBooks 8.2 Procedural SQL
 ## Web/App Implementation (Optional) or Description of Future Work
 ## MySQL dump
 Entirety of test tables can be found in the "Campus Eats Script.sql" file.
@@ -111,3 +112,4 @@ INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`
 ```
 ![](restaurant_review.PNG)
 ## PPT Video
+DEMONSTRATION OF PROJECT via short (6 min or less) Video - upload to YouTube, post link in Github
