@@ -457,7 +457,7 @@ CREATE TABLE `driver_review` (
   `review_id` int(11) NOT NULL auto_increment,
   `person_id` int(11) NOT NULL,
   `driver_id` int(11) NOT NULL,
-  `star_rating` int default NULL,
+  `star_rating` int(1) default NULL,
   `description` varchar(500) default NULL,
   `date` DATETIME,
   PRIMARY KEY (`review_id`),
@@ -482,13 +482,17 @@ INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`
 DROP TABLE IF EXISTS `restaurant_review`;
 
 CREATE TABLE `restaurant_review` (
-  `review_id` int NOT NULL auto_increment,
-  `person_id` int NOT NULL,
-  `restaurant_id` int NOT NULL,
-  `star_rating` int default NULL,
+  `review_id` int(11) NOT NULL auto_increment,
+  `person_id` int(11) NOT NULL,
+  `restaurant_id` int(11) NOT NULL,
+  `star_rating` int(1) default NULL,
   `description` varchar(500) default NULL,
   `date` DATETIME,
   PRIMARY KEY (`review_id`)
+  KEY fk_RR_person_id (person_id),
+  KEY fk_RR_driver_id (restaurant_id),
+  CONSTRAINT fk_RR_person_id FOREIGN KEY (person_id) REFERENCES person (person_id),
+  CONSTRAINT fk_RR_driver_id FOREIGN KEY (restaurant_id) REFERENCES restaurant (restaurant_id)
 ) AUTO_INCREMENT=1;
 
 INSERT INTO `restaurant_review` (`review_id`,`person_id`,`restaurant_id`,`star_rating`,`description`,`date`) VALUES (1,175,70,4,"enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam","2020-06-28 11:54:38"),(2,201,63,4,"lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus","2020-07-06 00:36:20"),(3,183,82,2,"et ultrices posuere cubilia Curae; Donec","2020-11-21 03:50:19"),(4,171,62,2,"odio. Etiam","2020-06-04 23:45:22"),(5,72,57,2,"est mauris, rhoncus id, mollis nec, cursus","2020-04-22 16:24:18"),(6,124,1,5,"eu","2020-02-05 17:05:08"),(7,9,70,1,"mollis vitae, posuere at, velit. Cras","2020-02-25 08:42:50"),(8,127,25,5,"id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque","2020-02-03 23:15:48"),(9,162,54,2,"convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit","2020-07-26 21:14:19"),(10,83,83,3,"elit. Nulla facilisi. Sed neque. Sed eget lacus.","2020-01-09 18:07:50");
