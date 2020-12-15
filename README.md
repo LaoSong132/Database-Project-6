@@ -52,7 +52,7 @@
 #### Driver Rating Procedure
 ```
 CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
-	SELECT AVG(`star_rating`)
+    SELECT AVG(`star_rating`)
     INTO dRating
     FROM `driver_review`
     WHERE driver_id=driverID;
@@ -60,7 +60,7 @@ CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
 #### Restaurant Rating Procedure
 ```
 CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
-	SELECT AVG(`star_rating`)
+    SELECT AVG(`star_rating`)
     INTO rRating
     FROM `restaurant_review`
     WHERE restaurant_id=restaurantID;
