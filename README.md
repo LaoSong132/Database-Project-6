@@ -49,7 +49,7 @@
 
 ## MySQL Queries
 ## Stored Procedure
-# Driver Rating Procedure
+#### Driver Rating Procedure
 ```
 CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
 	SELECT AVG(`star_rating`)
@@ -57,7 +57,7 @@ CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
     FROM `driver_review`
     WHERE driver_id=driverID;
 ```
-# Restaurant Rating Procedure
+#### Restaurant Rating Procedure
 ```
 CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
 	SELECT AVG(`star_rating`)
