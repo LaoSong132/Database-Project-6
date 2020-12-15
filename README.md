@@ -52,7 +52,7 @@
 #### Driver Rating Procedure
 ```
 CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
-    SELECT AVG(`star_rating`)
+	SELECT AVG(`star_rating`)
     INTO dRating
     FROM `driver_review`
     WHERE driver_id=driverID;
@@ -60,7 +60,7 @@ CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
 #### Restaurant Rating Procedure
 ```
 CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
-    SELECT AVG(`star_rating`)
+	SELECT AVG(`star_rating`)
     INTO rRating
     FROM `restaurant_review`
     WHERE restaurant_id=restaurantID;
@@ -126,5 +126,5 @@ INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`
 INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`description`,`date`) VALUES (91,72,7,3,"elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat","2020-11-12 12:26:12"),(92,17,5,2,"tempus mauris erat eget ipsum. Suspendisse","2020-06-28 11:48:03"),(93,125,2,1,"Vivamus non lorem vitae odio sagittis semper. Nam","2020-05-14 10:57:26"),(94,26,1,2,"scelerisque dui. Suspendisse ac metus vitae velit egestas","2020-10-07 08:25:38"),(95,128,8,2,"tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus","2020-10-22 05:54:44"),(96,154,5,4,"metus. In lorem. Donec elementum, lorem","2020-11-20 04:56:11"),(97,203,8,4,"pede. Suspendisse dui. Fusce diam","2020-05-14 17:09:09"),(98,57,5,2,"neque venenatis lacus. Etiam bibendum","2020-02-24 21:07:07"),(99,3,2,1,"Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue","2020-01-26 14:40:40"),(100,136,5,5,"faucibus leo, in lobortis tellus justo sit amet nulla. Donec non justo.","2020-02-22 10:58:58");
 ```
 ![](restaurant_review.PNG)
-## PPT Video
+## Demonstration Video
 DEMONSTRATION OF PROJECT via short (6 min or less) Video - upload to YouTube, post link in Github
