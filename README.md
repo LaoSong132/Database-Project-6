@@ -49,7 +49,22 @@
 
 ## MySQL Queries
 ## Stored Procedure
-zyBooks 8.2 Procedural SQL
+# Driver Rating Procedure
+```
+CREATE PROCEDURE driverRating (IN driverID INT(11), OUT dRating float)
+	SELECT AVG(`star_rating`)
+    INTO dRating
+    FROM `driver_review`
+    WHERE driver_id=driverID;
+```
+# Restaurant Rating Procedure
+```
+CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
+	SELECT AVG(`star_rating`)
+    INTO rRating
+    FROM `restaurant_review`
+    WHERE restaurant_id=restaurantID;
+```
 ## Web/App Implementation (Optional) or Description of Future Work
 ## MySQL dump
 Entirety of test tables can be found in the "Campus Eats Script.sql" file.
