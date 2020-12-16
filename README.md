@@ -163,5 +163,5 @@ INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`
 ## Demonstration Video
 https://youtu.be/-YYcAJvFdlQ
 
-[![Demonstration Video](https://i.ytimg.com/vi/-YYcAJvFdlQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBVpsDM9r_89RLMSIrtleTdioYM2Q)](https://youtu.be/-YYcAJvFdlQ)
+[![ITCS 3160 - Group 6 Presentation](https://i.ytimg.com/vi/-YYcAJvFdlQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBVpsDM9r_89RLMSIrtleTdioYM2Q)](https://youtu.be/-YYcAJvFdlQ)
 
