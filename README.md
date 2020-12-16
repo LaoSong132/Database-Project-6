@@ -162,4 +162,3 @@ INSERT INTO `driver_review` (`review_id`,`person_id`,`driver_id`,`star_rating`,`
 ![](restaurant_review.PNG)
 ## Demonstration Video
 https://youtu.be/-YYcAJvFdlQ
-<iframe width="1087" height="480" src="https://www.youtube.com/embed/-YYcAJvFdlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
