@@ -8,7 +8,6 @@
 * [EERD](#EERD)
 * [MySQL Queries](#MySQL-Queries)
 * [Stored Procedure](#Stored-Procedure)
-* [Description of Future Work](#Description-of-Future-Work)
 * [MySQL dump](#MySQL-dump)
 * [Demonstration Video](#Demonstration-Video)
 
