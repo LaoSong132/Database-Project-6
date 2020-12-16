@@ -50,16 +50,17 @@
 ## MySQL Queries
 #### Query 1
 ```
-SELECT restaurant_review.restaurant_id, star_rating, description, date, schedule
+SELECT restaurant_review.restaurant_id, restaurant_name, AVG(star_rating) AS `Average Rating`, restaurant.schedule, location
 FROM restaurant_review
 INNER JOIN restaurant
 ON restaurant_review.restaurant_id = restaurant.restaurant_id
 WHERE restaurant.restaurant_id IN (
     SELECT restaurant_id 
     FROM restaurant
-    WHERE schedule LIKE "%10pm")
+    WHERE schedule LIKE "9AM%")
 AND star_rating >= 3
-ORDER BY star_rating DESC;
+GROUP BY restaurant_id
+ORDER BY AVG(star_rating) DESC;
 ```
 ![](QueryResult1.PNG) <br>
 ![](QueryExplain1.PNG) <br>
