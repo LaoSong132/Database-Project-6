@@ -101,8 +101,6 @@ CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
     WHERE restaurant_id=restaurantID;
 ```
 
-## Description of Future Work
-
 ## MySQL dump
 Entirety of test tables can be found in the "Campus Eats Script.sql" file.
 ```
