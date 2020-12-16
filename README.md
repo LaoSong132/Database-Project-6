@@ -64,7 +64,7 @@ ORDER BY AVG(star_rating) DESC;
 ```
 ![](QueryResult1(1).PNG) <br>
 ![](QueryExplain1.PNG) <br>
-Since column schedule in restaurant is stored in a string format, it cannot be indexed as easily as a numerical value. If we were to change the schedule to a integer and add two columns for opening time and closing time and used 24 hours to represent the times to get rid of am and pm.
+This query follows the use case of a user wanting to find a restaurant that opens at 9AM at the earliest that also has an average rating of 3 or more stars.  Overall, the only unoptimized portion of the query is checking if the restaurant is open at 9AM.  Since column schedule in restaurant is stored in a VARCHAR format, it cannot be indexed as easily as a numerical value. If we were to change the schedule to a integer and add two columns for opening time and closing time and used 24 hours to represent the times to get rid of am and pm.
 
 #### Query 2
 ```
@@ -81,7 +81,7 @@ ORDER BY driver_id;
 ```
 ![](QueryResult2.PNG) <br>
 ![](QueryExplain2.PNG) <br>
-DISCUSS OPTIMIZATION HERE
+This query follows the use case of a uers wanting to view the average star ratings of all available delivery drivers as well as their overall rating.  Overall, this query is as optimised as it can be, but is still very costly to run.  This is because in order to gather information such as driver_id and average rating, the query must go through every possible row in the driver_review database.  If this query were to become further optimized, something such as a date range would need to be implemented in order to reduce the amount of rows required to be examined.
 
 ## Stored Procedure
 #### Driver Rating Procedure
