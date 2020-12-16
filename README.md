@@ -65,11 +65,21 @@ ORDER BY star_rating DESC;
 ![](QueryExplain1.PNG) <br>
 Since column schedule in restaurant is stored in a string format, it cannot be indexed as easily as a numerical value. If we were to change the schedule to a integer and add two columns for opening time and closing time and used 24 hours to represent the times to get rid of am and pm.
 
-#### Query2
+#### Query 2
 ```
-
+SELECT driver_id AS `Driver ID`, person.person_name as Name, AVG(star_rating) as `Average Rating`,
+CASE WHEN AVG(star_rating) >= 4 THEN 'Great'
+	WHEN AVG(star_rating) >= 3 AND AVG(star_rating) < 4 THEN 'Moderate'
+    WHEN AVG(star_rating) < 3 THEN 'Poor'
+    ELSE 'Not Available' END AS `Rating Grade`
+FROM driver_review
+INNER JOIN person
+ON person.person_id = driver_review.person_id
+GROUP BY driver_id
+ORDER BY driver_id;
 ```
-![](AdvancedView1.PNG) <br>
+![](QueryResult2.PNG) <br>
+![](QueryExplain2.PNG) <br>
 DISCUSS OPTIMIZATION HERE
 
 ## Stored Procedure
