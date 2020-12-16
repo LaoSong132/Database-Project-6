@@ -10,7 +10,7 @@
 * [Stored Procedure](#Stored-Procedure)
 * [Description of Future Work](#Description-of-Future-Work)
 * [MySQL dump](#MySQL-dump)
-* [PPT Video](#Video)
+* [Demonstration Video](#Demonstration-Video)
 
 ## Group members
     Sarah Chen,
