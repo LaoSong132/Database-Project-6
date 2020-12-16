@@ -68,7 +68,7 @@ DISCUSS OPTIMIZATION HERE
 ```
 
 ```
-![](AdvancedView1.PNG)
+![](AdvancedView1.PNG) <br>
 DISCUSS OPTIMIZATION HERE
 
 ## Stored Procedure
