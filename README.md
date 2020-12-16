@@ -62,6 +62,15 @@ AND star_rating >= 3
 ORDER BY star_rating DESC;
 ```
 ![](AdvancedView1.PNG)
+DISCUSS OPTIMIZATION HERE
+
+#### Query2
+```
+
+```
+![](AdvancedView1.PNG)
+DISCUSS OPTIMIZATION HERE
+
 ## Stored Procedure
 #### Driver Rating Procedure
 ```
@@ -79,7 +88,9 @@ CREATE PROCEDURE restaurantRating (IN restaurantID INT(11), OUT rRating float)
     FROM `restaurant_review`
     WHERE restaurant_id=restaurantID;
 ```
+
 ## Web/App Implementation (Optional) or Description of Future Work
+
 ## MySQL dump
 Entirety of test tables can be found in the "Campus Eats Script.sql" file.
 ```
