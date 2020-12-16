@@ -61,7 +61,7 @@ WHERE restaurant.restaurant_id IN (
 AND star_rating >= 3
 ORDER BY star_rating DESC;
 ```
-![](AdvancedView1.PNG)
+![](AdvancedView1.PNG) <br>
 DISCUSS OPTIMIZATION HERE
 
 #### Query2
