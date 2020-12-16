@@ -61,8 +61,9 @@ WHERE restaurant.restaurant_id IN (
 AND star_rating >= 3
 ORDER BY star_rating DESC;
 ```
-![](AdvancedView1.PNG) <br>
-DISCUSS OPTIMIZATION HERE
+![](QueryResult1.PNG) <br>
+![](QueryExplain1.PNG) <br>
+Since column schedule in restaurant is stored in a string format, it cannot be indexed as easily as a numerical value. If we were to change the schedule to a integer and add two columns for opening time and closing time and used 24 hours to represent the times to get rid of am and pm.
 
 #### Query2
 ```
